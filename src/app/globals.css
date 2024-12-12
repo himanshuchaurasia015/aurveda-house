@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.image-container {
+  transition: flex 0.3s ease-in-out;
+}
+.image-container:hover {
+  flex: 3;
+}
