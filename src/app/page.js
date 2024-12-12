@@ -50,7 +50,6 @@ export default function Home() {
             <span className="absolute top-2 left-5 text-white text-3xl">
               {image.label.toUpperCase()}
             </span>
-            {/* <span className=" absolute top-2 right-2 text-black text-lg  shadow-md rounded-[50%] bg-white py-2 px-3 font-extrabold   "> */}
             <span
               className={`absolute top-5 right-10 text-black shadow-md rounded-[50%] bg-white py-1 text-2xl px-3 font-extrabold transition-opacity duration-300 ${
                 activeIndex === index && enter ? "opacity-100" : "opacity-0"
